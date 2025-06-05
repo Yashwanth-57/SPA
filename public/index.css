@@ -1,0 +1,71 @@
+.dataContainer{
+    background-color: rgb(167, 97, 97);
+    margin: 5%;
+    padding: 5%;
+}
+.fistlayer{
+    margin-left: 5%;
+
+}
+.fistlayer h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+
+}
+.fistlayer p{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.add{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+   
+   
+}
+ label{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+.update{
+    display: flex;
+  
+    padding: 10px;
+    margin: 10px;
+   
+}
+.delete{
+    display: flex;
+     
+    margin: 10px;
+    padding: 10px;
+    
+}
+.parentdiv{
+   
+    display:flex;               /* Enables grid layout */
+   
+   
+    
+   justify-content: space-between;
+    padding: 1%;
+    flex-wrap: wrap;
+   
+   
+}
+
+.left_child{
+    
+    width: 50%;
+   text-align: center;
+    word-wrap: break-word;
+}
+.right_child{
+    text-align: center;
+    width: 48%;
+   
+}

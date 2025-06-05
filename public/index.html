@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My SPA</title>
+  <link rel="stylesheet" href="/index.css">
+  
+</head>
+<body>
+  
+  <div class="parentdiv">
+    
+    <div class="right_child">
+   
+      <div class="fistlayer"> 
+        <h1> Hello welcome to my page.</h1>
+        <p>This is about like to-do list app</p>
+        <p> Here we can add, delete and update of your daily tasks. </p>
+      </div>
+
+
+
+
+  <h1>Click the Button to Load Data</h1>
+  <button id="loadDataBtn">Load Data</button>
+  
+ 
+
+  <div class="add">
+    
+  <label for="name" id="add1">Name:</label>
+  <input type="text" id="addname" name="name" placeholder="Enter your name">
+  <br>
+  <label for="age" id="add1">Age: </label>
+  <input type="number" id="addage" name="age" placeholder="Enter your age">
+  <br>
+  <label for="id" id="add1">Id: </label>
+  <input type="number" id="addid" name="id" placeholder="Enter your age">
+  <br><br>
+  <button id="btt"> add</button>
+
+ 
+  </div>
+
+  <div class="update">
+    
+    
+      <label for="name" id="">Name:</label>
+      <input type="text" id="nameupdate" name="name" placeholder="Enter your name">
+      <br>
+      <label for="age" id="">Age:</label>
+      <input type="number" id="ageupdate" name="age" placeholder="Enter your age">
+      <br>
+      <label for="id" id="">Id:</label>
+      <input type="number" id="idupdate" name="id" placeholder="Enter id">
+      <br><br>
+      <button id="update_button" > update</button>
+
+  </div>
+  <div class="delete">
+    <label for="delete" id="delete">Id:</label>
+    <input type="number" id="deleteid"  name="delete" placeholder="Enter id">
+    <br><br>
+    <button id="delete_button"> Delete</button>
+  </div>
+
+ 
+
+  
+ 
+  </div>
+  <div class=" left_child">
+    
+    <div id="dataContainer"></div>
+  </div>
+  </div>
+  <script src="/index1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
