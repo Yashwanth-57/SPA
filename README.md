@@ -1,5 +1,5 @@
 # Project Name
-SPA (Single Page Application)
+Simple application using CRUD OPRATIONS
 
 ## How to use
 Th user gets a index page where user can do 4 tasks,
